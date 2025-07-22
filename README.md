@@ -8,7 +8,7 @@ Bootstrap 5 Lazy Snippets is your ultimate VS Code companion for rapid Bootstrap
 
 ## ✨ Features
 
-This extension provides a wide array of Bootstrap 5 components and structures as easy-to-use snippets. Simply type the prefix (e.g., bs-card, bs-modal, bs-btn-primary) and press Tab or Enter to insert the complete HTML structure.
+This extension provides a wide array of Bootstrap 5 components and structures as easy-to-use snippets. Simply type the prefix (e.g., `!bs5`, `bs5-accordion`, `bs5-alert-primary`) and press Tab or Enter to insert the complete HTML structure.
 
 ## Key features include:
 
