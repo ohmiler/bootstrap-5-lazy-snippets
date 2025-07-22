@@ -10,6 +10,7 @@
     "Snippets"
   ],
   "publisher": "milerdev",
+  "icon": "img/bootstrap-5-lazy-snippets-logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/ohmiler/bootstrap-5-lazy-snippets"
