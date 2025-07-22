@@ -10,6 +10,10 @@
     "Snippets"
   ],
   "publisher": "f57d5f2a-7fe9-6247-b256-2460d605e72f",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ohmiler/bootstrap-5-lazy-snippets"
+  },
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
