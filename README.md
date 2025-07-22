@@ -29,7 +29,7 @@ This extension provides a wide array of Bootstrap 5 components and structures as
 | Navbar            | `bs5-navbar-search`                                                            | Responsive navbar with search |
 | Offcanvas         | `bs5-offcanvas`                                                                | Slide-out offcanvas component |
 | Pagination        | `bs5-pagination`                                                               | Basic pagination component |
-| Popovers          | `bs5-popover-top`, `bs5-popover-right`                                         | Buttons with popover (various placements) |
+| Popovers          | `bs5-popover-top`, `bs5-popover-right`, `bs5-popover-bottom`, `bs5-popover-left` | Buttons with popover (various placements) |
 | Progress Bars     | `bs5-progress-bar`                                                             | Progress bars with percentages |
 | Scrollspy         | `bs5-scrollspy-navbar`                                                         | Scrollspy with navbar and sections |
 | Spinners          | `bs5-spinner`                                                                  | Border spinner |
