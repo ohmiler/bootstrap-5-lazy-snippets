@@ -1,0 +1,48 @@
+{
+  "name": "bootstrap-5-lazy-snippets",
+  "displayName": "Bootstrap 5 Lazy Snippets",
+  "description": "Tired of switching tabs? Bootstrap 5 Lazy Snippets brings the most-used Bootstrap 5 components directly to your VS Code editor.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "publisher": "f57d5f2a-7fe9-6247-b256-2460d605e72f",
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "snippets": [
+      {
+          "language": "html",
+          "path": "./snippets/html-bs5.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.102.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "eslint": "^9.25.1",
+    "typescript": "^5.8.3",
+    "ts-loader": "^9.5.2",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}

@@ -1,0 +1,1023 @@
+{
+    "Bootstrap 5 HTML Boilerplate": {
+        "prefix": "!bs5",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",
+            "    <meta charset=\"UTF-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "    <title>$1Document</title>",
+            "    ",
+            "    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr\" crossorigin=\"anonymous\">",
+            "</head>",
+            "<body>",
+            "    $2",
+            "",
+            "    ",
+            "    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q\" crossorigin=\"anonymous\"></script>",
+            "</body>",
+            "</html>"
+        ],
+        "description": "Basic HTML5 structure with Bootstrap 5 CDN links."
+    },
+    "Boostrap 5 Accordion": {
+        "prefix": "bs5-accordion-normal",
+        "body": [
+            "<div class=\"accordion\" id=\"$1accordionExample\">",
+            "  <div class=\"accordion-item\">",
+            "    <h2 class=\"accordion-header\">",
+            "      <button class=\"accordion-button\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#$2collapseOne\" aria-expanded=\"true\" aria-controls=\"$2collapseOne\">",
+            "        $3Accordion Item #1",
+            "      </button>",
+            "    </h2>",
+            "    <div id=\"$2collapseOne\" class=\"accordion-collapse collapse show\" data-bs-parent=\"#$1accordionExample\">",
+            "      <div class=\"accordion-body\">",
+            "        $4<strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.",
+            "      </div>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"accordion-item\">",
+            "    <h2 class=\"accordion-header\">",
+            "      <button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#$5collapseTwo\" aria-expanded=\"false\" aria-controls=\"$5collapseTwo\">",
+            "        $6Accordion Item #2",
+            "      </button>",
+            "    </h2>",
+            "    <div id=\"$5collapseTwo\" class=\"accordion-collapse collapse\" data-bs-parent=\"#$1accordionExample\">",
+            "      <div class=\"accordion-body\">",
+            "        $7<strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.",
+            "      </div>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"accordion-item\">",
+            "    <h2 class=\"accordion-header\">",
+            "      <button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#$8collapseThree\" aria-expanded=\"false\" aria-controls=\"$8collapseThree\">",
+            "        $9Accordion Item #3",
+            "      </button>",
+            "    </h2>",
+            "    <div id=\"$8collapseThree\" class=\"accordion-collapse collapse\" data-bs-parent=\"#$1accordionExample\">",
+            "      <div class=\"accordion-body\">",
+            "        $10<strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.",
+            "      </div>",
+            "    </div>",
+            "  </div>",
+            "</div>",
+            "$0"
+        ],
+        "description": "Bootstrap 5 Accordion component with three items."
+    },
+    "Bootstrap 5 Accordion Flush": {
+        "prefix": "bs5-accordion-flush",
+        "body": [
+            "<div class=\"accordion accordion-flush\" id=\"$1accordionFlushExample\">",
+            "  <div class=\"accordion-item\">",
+            "    <h2 class=\"accordion-header\">",
+            "      <button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#$2flush-collapseOne\" aria-expanded=\"false\" aria-controls=\"$2flush-collapseOne\">",
+            "        $3Accordion Item #1",
+            "      </button>",
+            "    </h2>",
+            "    <div id=\"$2flush-collapseOne\" class=\"accordion-collapse collapse\" data-bs-parent=\"#$1accordionFlushExample\">",
+            "      <div class=\"accordion-body\">$4Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item’s accordion body.</div>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"accordion-item\">",
+            "    <h2 class=\"accordion-header\">",
+            "      <button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#$5flush-collapseTwo\" aria-expanded=\"false\" aria-controls=\"$5flush-collapseTwo\">",
+            "        $6Accordion Item #2",
+            "      </button>",
+            "    </h2>",
+            "    <div id=\"$5flush-collapseTwo\" class=\"accordion-collapse collapse\" data-bs-parent=\"#$1accordionFlushExample\">",
+            "      <div class=\"accordion-body\">$7Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this being filled with some actual content.</div>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"accordion-item\">",
+            "    <h2 class=\"accordion-header\">",
+            "      <button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#$8flush-collapseThree\" aria-expanded=\"false\" aria-controls=\"$8flush-collapseThree\">",
+            "        $9Accordion Item #3",
+            "      </button>",
+            "    </h2>",
+            "    <div id=\"$8flush-collapseThree\" class=\"accordion-collapse collapse\" data-bs-parent=\"#$1accordionFlushExample\">",
+            "      <div class=\"accordion-body\">$10Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item’s accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>",
+            "    </div>",
+            "  </div>",
+            "$0"
+        ],
+        "description": "Bootstrap 5 Accordion with accordion-flush class and three items."
+    },
+    "Bootstrap 5 Accordion Always Open": {
+        "prefix": "bs5-accordion-open",
+        "body": [
+            "<div class=\"accordion\" id=\"$1accordionPanelsStayOpenExample\">",
+            "  <div class=\"accordion-item\">",
+            "    <h2 class=\"accordion-header\">",
+            "      <button class=\"accordion-button\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#$2panelsStayOpen-collapseOne\" aria-expanded=\"true\" aria-controls=\"$2panelsStayOpen-collapseOne\">",
+            "        $3Accordion Item #1",
+            "      </button>",
+            "    </h2>",
+            "    <div id=\"$2panelsStayOpen-collapseOne\" class=\"accordion-collapse collapse show\">",
+            "      <div class=\"accordion-body\">",
+            "        $4<strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.",
+            "      </div>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"accordion-item\">",
+            "    <h2 class=\"accordion-header\">",
+            "      <button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#$5panelsStayOpen-collapseTwo\" aria-expanded=\"false\" aria-controls=\"$5panelsStayOpen-collapseTwo\">",
+            "        $6Accordion Item #2",
+            "      </button>",
+            "    </h2>",
+            "    <div id=\"$5panelsStayOpen-collapseTwo\" class=\"accordion-collapse collapse\">",
+            "      <div class=\"accordion-body\">",
+            "        $7<strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.",
+            "      </div>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"accordion-item\">",
+            "    <h2 class=\"accordion-header\">",
+            "      <button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#$8panelsStayOpen-collapseThree\" aria-expanded=\"false\" aria-controls=\"$8panelsStayOpen-collapseThree\">",
+            "        $9Accordion Item #3",
+            "      </button>",
+            "    </h2>",
+            "    <div id=\"$8panelsStayOpen-collapseThree\" class=\"accordion-collapse collapse\">",
+            "      <div class=\"accordion-body\">",
+            "        $10<strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.",
+            "      </div>",
+            "    </div>",
+            "  </div>",
+            "$0"
+        ],
+        "description": "Bootstrap 5 Accordion with panels that stay open (no parent data attribute)."
+    },
+    "Bootstrap 5 Alert Primary": {
+        "prefix": "bs5-alert-primary",
+        "body": [
+            "<div class=\"alert alert-primary\" role=\"alert\">",
+            "  $1A simple primary alert—check it out!",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 primary alert."
+    },
+    "Bootstrap 5 Alert Secondary": {
+        "prefix": "bs5-alert-secondary",
+        "body": [
+            "<div class=\"alert alert-secondary\" role=\"alert\">",
+            "  $1A simple secondary alert—check it out!",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 secondary alert."
+    },
+    "Bootstrap 5 Alert Success": {
+        "prefix": "bs5-alert-success",
+        "body": [
+            "<div class=\"alert alert-success\" role=\"alert\">",
+            "  $1A simple success alert—check it out!",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 success alert."
+    },
+    "Bootstrap 5 Alert Danger": {
+        "prefix": "bs5-alert-danger",
+        "body": [
+            "<div class=\"alert alert-danger\" role=\"alert\">",
+            "  $1A simple danger alert—check it out!",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 danger alert."
+    },
+    "Bootstrap 5 Alert Warning": {
+        "prefix": "bs5-alert-warning",
+        "body": [
+            "<div class=\"alert alert-warning\" role=\"alert\">",
+            "  $1A simple warning alert—check it out!",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 warning alert."
+    },
+    "Bootstrap 5 Alert Info": {
+        "prefix": "bs5-alert-info",
+        "body": [
+            "<div class=\"alert alert-info\" role=\"alert\">",
+            "  $1A simple info alert—check it out!",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 info alert."
+    },
+    "Bootstrap 5 Alert Light": {
+        "prefix": "bs5-alert-light",
+        "body": [
+            "<div class=\"alert alert-light\" role=\"alert\">",
+            "  $1A simple light alert—check it out!",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 light alert."
+    },
+    "Bootstrap 5 Alert Dark": {
+        "prefix": "bs5-alert-dark",
+        "body": [
+            "<div class=\"alert alert-dark\" role=\"alert\">",
+            "  $1A simple dark alert—check it out!",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 dark alert."
+    },
+    "Bootstrap 5 Badge Primary": {
+        "prefix": "bs5-badge-primary",
+        "body": [
+            "<span class=\"badge text-bg-primary\">$1Primary</span>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 primary badge."
+    },
+    "Bootstrap 5 Badge Secondary": {
+        "prefix": "bs5-badge-secondary",
+        "body": [
+            "<span class=\"badge text-bg-secondary\">$1Secondary</span>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 secondary badge."
+    },
+    "Bootstrap 5 Badge Success": {
+        "prefix": "bs5-badge-success",
+        "body": [
+            "<span class=\"badge text-bg-success\">$1Success</span>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 success badge."
+    },
+    "Bootstrap 5 Badge Danger": {
+        "prefix": "bs5-badge-danger",
+        "body": [
+            "<span class=\"badge text-bg-danger\">$1Danger</span>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 danger badge."
+    },
+    "Bootstrap 5 Badge Warning": {
+        "prefix": "bs5-badge-warning",
+        "body": [
+            "<span class=\"badge text-bg-warning\">$1Warning</span>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 warning badge."
+    },
+    "Bootstrap 5 Badge Info": {
+        "prefix": "bs5-badge-info",
+        "body": [
+            "<span class=\"badge text-bg-info\">$1Info</span>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 info badge."
+    },
+    "Bootstrap 5 Badge Light": {
+        "prefix": "bs5-badge-light",
+        "body": [
+            "<span class=\"badge text-bg-light\">$1Light</span>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 light badge."
+    },
+    "Bootstrap 5 Badge Dark": {
+        "prefix": "bs5-badge-dark",
+        "body": [
+            "<span class=\"badge text-bg-dark\">$1Dark</span>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 dark badge."
+    },
+    "Bootstrap 5 Rounded Pill Badge Primary": {
+        "prefix": "bs5-badge-pill-primary",
+        "body": [
+            "<span class=\"badge rounded-pill text-bg-primary\">$1Primary</span>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 primary rounded pill badge."
+    },
+    "Bootstrap 5 Rounded Pill Badge Secondary": {
+        "prefix": "bs5-badge-pill-secondary",
+        "body": [
+            "<span class=\"badge rounded-pill text-bg-secondary\">$1Secondary</span>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 secondary rounded pill badge."
+    },
+    "Bootstrap 5 Rounded Pill Badge Success": {
+        "prefix": "bs5-badge-pill-success",
+        "body": [
+            "<span class=\"badge rounded-pill text-bg-success\">$1Success</span>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 success rounded pill badge."
+    },
+    "Bootstrap 5 Rounded Pill Badge Danger": {
+        "prefix": "bs5-badge-pill-danger",
+        "body": [
+            "<span class=\"badge rounded-pill text-bg-danger\">$1Danger</span>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 danger rounded pill badge."
+    },
+    "Bootstrap 5 Rounded Pill Badge Warning": {
+        "prefix": "bs5-badge-pill-warning",
+        "body": [
+            "<span class=\"badge rounded-pill text-bg-warning\">$1Warning</span>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 warning rounded pill badge."
+    },
+    "Bootstrap 5 Rounded Pill Badge Info": {
+        "prefix": "bs5-badge-pill-info",
+        "body": [
+            "<span class=\"badge rounded-pill text-bg-info\">$1Info</span>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 info rounded pill badge."
+    },
+    "Bootstrap 5 Rounded Pill Badge Light": {
+        "prefix": "bs5-badge-pill-light",
+        "body": [
+            "<span class=\"badge rounded-pill text-bg-light\">$1Light</span>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 light rounded pill badge."
+    },
+    "Bootstrap 5 Rounded Pill Badge Dark": {
+        "prefix": "bs5-badge-pill-dark",
+        "body": [
+            "<span class=\"badge rounded-pill text-bg-dark\">$1Dark</span>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 dark rounded pill badge."
+    },
+    "Bootstrap 5 Breadcrumb": {
+        "prefix": "bs5-breadcrumb",
+        "body": [
+            "<nav aria-label=\"breadcrumb\">",
+            "  <ol class=\"breadcrumb\">",
+            "    <li class=\"breadcrumb-item\"><a href=\"$1#\">$2Home</a></li>",
+            "    <li class=\"breadcrumb-item\"><a href=\"$3#\">$4Library</a></li>",
+            "    <li class=\"breadcrumb-item active\" aria-current=\"page\">$5Data</li>",
+            "  </ol>",
+            "</nav>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 breadcrumb navigation."
+    },
+    "Bootstrap 5 Button Primary": {
+        "prefix": "bs5-button-primary",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-primary\">$1Primary</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 primary button."
+    },
+    "Bootstrap 5 Button Secondary": {
+        "prefix": "bs5-button-secondary",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-secondary\">$1Secondary</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 secondary button."
+    },
+    "Bootstrap 5 Button Success": {
+        "prefix": "bs5-button-success",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-success\">$1Success</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 success button."
+    },
+    "Bootstrap 5 Button Danger": {
+        "prefix": "bs5-button-danger",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-danger\">$1Danger</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 danger button."
+    },
+    "Bootstrap 5 Button Warning": {
+        "prefix": "bs5-button-warning",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-warning\">$1Warning</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 warning button."
+    },
+    "Bootstrap 5 Button Info": {
+        "prefix": "bs5-button-info",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-info\">$1Info</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 info button."
+    },
+    "Bootstrap 5 Button Light": {
+        "prefix": "bs5-button-light",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-light\">$1Light</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 light button."
+    },
+    "Bootstrap 5 Button Dark": {
+        "prefix": "bs5-button-dark",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-dark\">$1Dark</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 dark button."
+    },
+    "Bootstrap 5 Button Link": {
+        "prefix": "bs5-button-link",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-link\">$1Link</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 link button."
+    },
+    "Bootstrap 5 Outline Button Primary": {
+        "prefix": "bs5-button-outline-primary",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-outline-primary\">$1Primary</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 primary outline button."
+    },
+    "Bootstrap 5 Outline Button Secondary": {
+        "prefix": "bs5-button-outline-secondary",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-outline-secondary\">$1Secondary</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 secondary outline button."
+    },
+    "Bootstrap 5 Outline Button Success": {
+        "prefix": "bs5-button-outline-success",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-outline-success\">$1Success</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 success outline button."
+    },
+    "Bootstrap 5 Outline Button Danger": {
+        "prefix": "bs5-button-outline-danger",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-outline-danger\">$1Danger</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 danger outline button."
+    },
+    "Bootstrap 5 Outline Button Warning": {
+        "prefix": "bs5-button-outline-warning",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-outline-warning\">$1Warning</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 warning outline button."
+    },
+    "Bootstrap 5 Outline Button Info": {
+        "prefix": "bs5-button-outline-info",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-outline-info\">$1Info</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 info outline button."
+    },
+    "Bootstrap 5 Outline Button Light": {
+        "prefix": "bs5-button-outline-light",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-outline-light\">$1Light</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 light outline button."
+    },
+    "Bootstrap 5 Outline Button Dark": {
+        "prefix": "bs5-button-outline-dark",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-outline-dark\">$1Dark</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 dark outline button."
+    },
+    "Bootstrap 5 Button Group Basic": {
+        "prefix": "bs5-btn-group",
+        "body": [
+            "<div class=\"btn-group\" role=\"group\" aria-label=\"$1Basic example\">",
+            "  <button type=\"button\" class=\"btn $2btn-primary\">$3Left</button>",
+            "  <button type=\"button\" class=\"btn $4btn-primary\">$5Middle</button>",
+            "  <button type=\"button\" class=\"btn $6btn-primary\">$7Right</button>",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 button group."
+    },
+    "Bootstrap 5 Outline Button Group": {
+        "prefix": "bs5-btn-group-outline",
+        "body": [
+            "<div class=\"btn-group\" role=\"group\" aria-label=\"$1Basic outlined example\">",
+            "  <button type=\"button\" class=\"btn $2btn-outline-primary\">$3Left</button>",
+            "  <button type=\"button\" class=\"btn $4btn-outline-primary\">$5Middle</button>",
+            "  <button type=\"button\" class=\"btn $6btn-outline-primary\">$7Right</button>",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 outline button group."
+    },
+    "Bootstrap 5 Card with Image": {
+        "prefix": "bs5-card-img",
+        "body": [
+            "<div class=\"card\" style=\"width: $118rem;\">",
+            "  <img src=\"$2...\" class=\"card-img-top\" alt=\"$3...\">",
+            "  <div class=\"card-body\">",
+            "    <h5 class=\"card-title\">$4Card title</h5>",
+            "    <p class=\"card-text\">$5Some quick example text to build on the card title and make up the bulk of the card’s content.</p>",
+            "    <a href=\"$6#\" class=\"btn btn-primary\">$7Go somewhere</a>",
+            "  </div>",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 card with an image at the top."
+    },
+    "Bootstrap 5 Carousel Basic": {
+        "prefix": "bs5-carousel",
+        "body": [
+            "<div id=\"$1carouselExample\" class=\"carousel slide\">",
+            "  <div class=\"carousel-inner\">",
+            "    <div class=\"carousel-item active\">",
+            "      <img src=\"https://placehold.co/1920x1080\" class=\"d-block w-100\" alt=\"$3...\">",
+            "    </div>",
+            "    <div class=\"carousel-item\">",
+            "      <img src=\"https://placehold.co/1920x1080\" class=\"d-block w-100\" alt=\"$5...\">",
+            "    </div>",
+            "    <div class=\"carousel-item\">",
+            "      <img src=\"https://placehold.co/1920x1080\" class=\"d-block w-100\" alt=\"$7...\">",
+            "    </div>",
+            "  </div>",
+            "  <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#$1carouselExample\" data-bs-slide=\"prev\">",
+            "    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>",
+            "    <span class=\"visually-hidden\">Previous</span>",
+            "  </button>",
+            "  <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#$1carouselExample\" data-bs-slide=\"next\">",
+            "    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>",
+            "    <span class=\"visually-hidden\">Next</span>",
+            "  </button>",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 carousel component with three image slides."
+    },
+    "Bootstrap 5 Carousel with Indicators": {
+        "prefix": "bs5-carousel-indicators",
+        "body": [
+            "<div id=\"$1carouselExampleIndicators\" class=\"carousel slide\">",
+            "  <div class=\"carousel-indicators\">",
+            "    <button type=\"button\" data-bs-target=\"#$1carouselExampleIndicators\" data-bs-slide-to=\"0\" class=\"active\" aria-current=\"true\" aria-label=\"$2Slide 1\"></button>",
+            "    <button type=\"button\" data-bs-target=\"#$1carouselExampleIndicators\" data-bs-slide-to=\"1\" aria-label=\"$3Slide 2\"></button>",
+            "    <button type=\"button\" data-bs-target=\"#$1carouselExampleIndicators\" data-bs-slide-to=\"2\" aria-label=\"$4Slide 3\"></button>",
+            "  </div>",
+            "  <div class=\"carousel-inner\">",
+            "    <div class=\"carousel-item active\">",
+            "      <img src=\"https://placehold.co/1920x1080\" class=\"d-block w-100\" alt=\"$6...\">",
+            "    </div>",
+            "    <div class=\"carousel-item\">",
+            "      <img src=\"https://placehold.co/1920x1080\" class=\"d-block w-100\" alt=\"$8...\">",
+            "    </div>",
+            "    <div class=\"carousel-item\">",
+            "      <img src=\"https://placehold.co/1920x1080\" class=\"d-block w-100\" alt=\"$10...\">",
+            "    </div>",
+            "  </div>",
+            "  <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#$1carouselExampleIndicators\" data-bs-slide=\"prev\">",
+            "    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>",
+            "    <span class=\"visually-hidden\">Previous</span>",
+            "  </button>",
+            "  <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#$1carouselExampleIndicators\" data-bs-slide=\"next\">",
+            "    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>",
+            "    <span class=\"visually-hidden\">Next</span>",
+            "  </button>",
+            "</div>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 carousel component with indicators, controls, and three image slides."
+    },
+    "Bootstrap 5 Carousel with Captions": {
+        "prefix": "bs5-carousel-captions",
+        "body": [
+            "<div id=\"$1carouselExampleCaptions\" class=\"carousel slide\">",
+            "  <div class=\"carousel-indicators\">",
+            "    <button type=\"button\" data-bs-target=\"#$1carouselExampleCaptions\" data-bs-slide-to=\"0\" class=\"active\" aria-current=\"true\" aria-label=\"$2Slide 1\"></button>",
+            "    <button type=\"button\" data-bs-target=\"#$1carouselExampleCaptions\" data-bs-slide-to=\"1\" aria-label=\"$3Slide 2\"></button>",
+            "    <button type=\"button\" data-bs-target=\"#$1carouselExampleCaptions\" data-bs-slide-to=\"2\" aria-label=\"$4Slide 3\"></button>",
+            "  </div>",
+            "  <div class=\"carousel-inner\">",
+            "    <div class=\"carousel-item active\">",
+            "      <img src=\"https://placehold.co/1920x1080\" class=\"d-block w-100\" alt=\"$6...\">",
+            "      <div class=\"carousel-caption d-none d-md-block\">",
+            "        <h5>$7First slide label</h5>",
+            "        <p>$8Some representative placeholder content for the first slide.</p>",
+            "      </div>",
+            "    </div>",
+            "    <div class=\"carousel-item\">",
+            "      <img src=\"https://placehold.co/1920x1080\" class=\"d-block w-100\" alt=\"$10...\">",
+            "      <div class=\"carousel-caption d-none d-md-block\">",
+            "        <h5>$11Second slide label</h5>",
+            "        <p>$12Some representative placeholder content for the second slide.</p>",
+            "      </div>",
+            "    </div>",
+            "    <div class=\"carousel-item\">",
+            "      <img src=\"https://placehold.co/1920x1080\" class=\"d-block w-100\" alt=\"$14...\">",
+            "      <div class=\"carousel-caption d-none d-md-block\">",
+            "        <h5>$15Third slide label</h5>",
+            "        <p>$16Some representative placeholder content for the third slide.</p>",
+            "      </div>",
+            "    </div>",
+            "  </div>",
+            "  <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#$1carouselExampleCaptions\" data-bs-slide=\"prev\">",
+            "    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>",
+            "    <span class=\"visually-hidden\">Previous</span>",
+            "  </button>",
+            "  <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#$1carouselExampleCaptions\" data-bs-slide=\"next\">",
+            "    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>",
+            "    <span class=\"visually-hidden\">Next</span>",
+            "  </button>",
+            "</div>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 carousel component with indicators, controls, captions, and three image slides."
+    },
+    "Bootstrap 5 Carousel with Fade": {
+        "prefix": "bs5-carousel-fade",
+        "body": [
+            "<div id=\"$1carouselExampleFade\" class=\"carousel slide carousel-fade\">",
+            "  <div class=\"carousel-inner\">",
+            "    <div class=\"carousel-item active\">",
+            "      <img src=\"https://placehold.co/1920x1080\" class=\"d-block w-100\" alt=\"$3...\">",
+            "    </div>",
+            "    <div class=\"carousel-item\">",
+            "      <img src=\"https://placehold.co/1920x1080\" class=\"d-block w-100\" alt=\"$5...\">",
+            "    </div>",
+            "    <div class=\"carousel-item\">",
+            "      <img src=\"https://placehold.co/1920x1080\" class=\"d-block w-100\" alt=\"$7...\">",
+            "    </div>",
+            "  </div>",
+            "  <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#$1carouselExampleFade\" data-bs-slide=\"prev\">",
+            "    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>",
+            "    <span class=\"visually-hidden\">Previous</span>",
+            "  </button>",
+            "  <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#$1carouselExampleFade\" data-bs-slide=\"next\">",
+            "    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>",
+            "    <span class=\"visually-hidden\">Next</span>",
+            "  </button>",
+            "</div>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 carousel component with fade transition effect."
+    },
+    "Bootstrap 5 Collapse Basic": {
+        "prefix": "bs5-collapse",
+        "body": [
+            "<p class=\"d-inline-flex gap-1\">",
+            "  <a class=\"btn btn-primary\" data-bs-toggle=\"collapse\" href=\"#$1collapseExample\" role=\"button\" aria-expanded=\"false\" aria-controls=\"$1collapseExample\">",
+            "    $2Link with href",
+            "  </a>",
+            "  <button class=\"btn btn-primary\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#$1collapseExample\" aria-expanded=\"false\" aria-controls=\"$1collapseExample\">",
+            "    $3Button with data-bs-target",
+            "  </button>",
+            "</p>",
+            "<div class=\"collapse\" id=\"$1collapseExample\">",
+            "  <div class=\"card card-body\">",
+            "    $4Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.",
+            "  </div>",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 collapse component with both link and button triggers."
+    },
+    "Bootstrap 5 Dropdown Basic": {
+        "prefix": "bs5-dropdown",
+        "body": [
+            "<div class=\"dropdown\">",
+            "  <button class=\"btn btn-primary dropdown-toggle\" type=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">",
+            "    $1Dropdown button",
+            "  </button>",
+            "  <ul class=\"dropdown-menu\">",
+            "    <li><a class=\"dropdown-item\" href=\"$2#\">$3Action</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"$4#\">$5Another action</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"$6#\">$7Something else here</a></li>",
+            "  </ul>",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 dropdown component with three items."
+    },
+    "Bootstrap 5 Split Dropdown": {
+        "prefix": "bs5-dropdown-split",
+        "body": [
+            "",
+            "<div class=\"btn-group\">",
+            "  <button type=\"button\" class=\"btn btn-primary\">$1Danger</button>",
+            "  <button type=\"button\" class=\"btn btn-primary dropdown-toggle dropdown-toggle-split\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">",
+            "    <span class=\"visually-hidden\">$2Toggle Dropdown</span>",
+            "  </button>",
+            "  <ul class=\"dropdown-menu\">",
+            "    <li><a class=\"dropdown-item\" href=\"$3#\">$4Action</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"$5#\">$6Another action</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"$7#\">$8Something else here</a></li>",
+            "    <li><hr class=\"dropdown-divider\"></li>",
+            "    <li><a class=\"dropdown-item\" href=\"$9#\">$10Separated link</a></li>",
+            "  </ul>",
+            "</div>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 split danger dropdown button with a divider."
+    },
+    "Bootstrap 5 List Group Basic": {
+        "prefix": "bs5-list-group",
+        "body": [
+            "<ul class=\"list-group\">",
+            "  <li class=\"list-group-item\">$1An item</li>",
+            "  <li class=\"list-group-item\">$2A second item</li>",
+            "  <li class=\"list-group-item\">$3A third item</li>",
+            "  <li class=\"list-group-item\">$4A fourth item</li>",
+            "  <li class=\"list-group-item\">$5And a fifth one</li>",
+            "</ul>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 list group."
+    },
+    "Bootstrap 5 Modal": {
+        "prefix": "bs5-modal",
+        "body": [
+            "",
+            "<button type=\"button\" class=\"btn $1btn-primary\" data-bs-toggle=\"modal\" data-bs-target=\"#$2exampleModal\">",
+            "  $3Launch demo modal",
+            "</button>",
+            "",
+            "",
+            "<div class=\"modal fade\" id=\"$2exampleModal\" tabindex=\"-1\" aria-labelledby=\"$2exampleModalLabel\" aria-hidden=\"true\">",
+            "  <div class=\"modal-dialog\">",
+            "    <div class=\"modal-content\">",
+            "      <div class=\"modal-header\">",
+            "        <h1 class=\"modal-title fs-5\" id=\"$2exampleModalLabel\">$4Modal title</h1>",
+            "        <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button>",
+            "      </div>",
+            "      <div class=\"modal-body\">",
+            "        $5...",
+            "      </div>",
+            "      <div class=\"modal-footer\">",
+            "        <button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">$6Close</button>",
+            "        <button type=\"button\" class=\"btn btn-primary\">$7Save changes</button>",
+            "      </div>",
+            "    </div>",
+            "  </div>",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 modal component with a trigger button."
+    },
+    "Bootstrap 5 Navbar Basic with Search": {
+        "prefix": "bs5-navbar-search",
+        "body": [
+            "<nav class=\"navbar navbar-expand-lg $1bg-body-tertiary\">",
+            "  <div class=\"container-fluid\">",
+            "    <a class=\"navbar-brand\" href=\"$2#\">$3Navbar</a>",
+            "    <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#$4navbarSupportedContent\" aria-controls=\"$4navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">",
+            "      <span class=\"navbar-toggler-icon\"></span>",
+            "    </button>",
+            "    <div class=\"collapse navbar-collapse\" id=\"$4navbarSupportedContent\">",
+            "      <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">",
+            "        <li class=\"nav-item\">",
+            "          <a class=\"nav-link active\" aria-current=\"page\" href=\"$5#\">$6Home</a>",
+            "        </li>",
+            "        <li class=\"nav-item\">",
+            "          <a class=\"nav-link\" href=\"$7#\">$8Link</a>",
+            "        </li>",
+            "        <li class=\"nav-item dropdown\">",
+            "          <a class=\"nav-link dropdown-toggle\" href=\"$9#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">",
+            "            $10Dropdown",
+            "          </a>",
+            "          <ul class=\"dropdown-menu\">",
+            "            <li><a class=\"dropdown-item\" href=\"$11#\">$12Action</a></li>",
+            "            <li><a class=\"dropdown-item\" href=\"$13#\">$14Another action</a></li>",
+            "            <li><hr class=\"dropdown-divider\"></li>",
+            "            <li><a class=\"dropdown-item\" href=\"$15#\">$16Something else here</a></li>",
+            "          </ul>",
+            "        </li>",
+            "        <li class=\"nav-item\">",
+            "          <a class=\"nav-link disabled\" aria-disabled=\"true\">$17Disabled</a>",
+            "        </li>",
+            "      </ul>",
+            "      <form class=\"d-flex\" role=\"search\">",
+            "        <input class=\"form-control me-2\" type=\"search\" placeholder=\"$18Search\" aria-label=\"$19Search\"/>",
+            "        <button class=\"btn btn-outline-success\" type=\"submit\">$20Search</button>",
+            "      </form>",
+            "    </div>",
+            "  </div>",
+            "</nav>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 navbar with a brand, navigation links, dropdown, disabled item, and a search form."
+    },
+    "Bootstrap 5 Offcanvas Basic": {
+        "prefix": "bs5-offcanvas",
+        "body": [
+            "<a class=\"btn $1btn-primary\" data-bs-toggle=\"offcanvas\" href=\"#$2offcanvasExample\" role=\"button\" aria-controls=\"$2offcanvasExample\">",
+            "  $3Link with href",
+            "</a>",
+            "<button class=\"btn $4btn-primary\" type=\"button\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#$2offcanvasExample\" aria-controls=\"$2offcanvasExample\">",
+            "  $5Button with data-bs-target",
+            "</button>",
+            "",
+            "<div class=\"offcanvas offcanvas-start\" tabindex=\"-1\" id=\"$2offcanvasExample\" aria-labelledby=\"$2offcanvasExampleLabel\">",
+            "  <div class=\"offcanvas-header\">",
+            "    <h5 class=\"offcanvas-title\" id=\"$2offcanvasExampleLabel\">$6Offcanvas</h5>",
+            "    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"offcanvas\" aria-label=\"Close\"></button>",
+            "  </div>",
+            "  <div class=\"offcanvas-body\">",
+            "    <div>",
+            "      $7Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.",
+            "    </div>",
+            "    <div class=\"dropdown mt-3\">",
+            "      <button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" data-bs-toggle=\"dropdown\">",
+            "        $8Dropdown button",
+            "      </button>",
+            "      <ul class=\"dropdown-menu\">",
+            "        <li><a class=\"dropdown-item\" href=\"$9#\">$10Action</a></li>",
+            "        <li><a class=\"dropdown-item\" href=\"$11#\">$12Another action</a></li>",
+            "        <li><a class=\"dropdown-item\" href=\"$13#\">$14Something else here</a></li>",
+            "      </ul>",
+            "    </div>",
+            "  </div>",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 offcanvas component with both link and button triggers, and a dropdown inside."
+    },
+    "Bootstrap 5 Pagination Basic": {
+        "prefix": "bs5-pagination",
+        "body": [
+            "<nav aria-label=\"$1Page navigation example\">",
+            "  <ul class=\"pagination\">",
+            "    <li class=\"page-item\"><a class=\"page-link\" href=\"$2#\">$3Previous</a></li>",
+            "    <li class=\"page-item\"><a class=\"page-link\" href=\"$4#\">$51</a></li>",
+            "    <li class=\"page-item\"><a class=\"page-link\" href=\"$6#\">$72</a></li>",
+            "    <li class=\"page-item\"><a class=\"page-link\" href=\"$8#\">$93</a></li>",
+            "    <li class=\"page-item\"><a class=\"page-link\" href=\"$10#\">$11Next</a></li>",
+            "  </ul>",
+            "</nav>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 pagination component."
+    },
+    "Bootstrap 5 Popover Top": {
+        "prefix": "bs5-popover-top",
+        "body": [
+            "<button type=\"button\" class=\"btn $1btn-secondary\" data-bs-container=\"body\" data-bs-toggle=\"popover\" data-bs-placement=\"top\" data-bs-content=\"$2Top popover\">",
+            "  $3Popover on top",
+            "</button>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 popover triggered from the top."
+    },
+    "Bootstrap 5 Popover Right": {
+        "prefix": "bs5-popover-right",
+        "body": [
+            "<button type=\"button\" class=\"btn $1btn-secondary\" data-bs-container=\"body\" data-bs-toggle=\"popover\" data-bs-placement=\"right\" data-bs-content=\"$2Right popover\">",
+            "  $3Popover on right",
+            "</button>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 popover triggered from the right."
+    },
+    "Bootstrap 5 Popover Bottom": {
+        "prefix": "bs5-popover-bottom",
+        "body": [
+            "<button type=\"button\" class=\"btn $1btn-secondary\" data-bs-container=\"body\" data-bs-toggle=\"popover\" data-bs-placement=\"bottom\" data-bs-content=\"$2Bottom popover\">",
+            "  $3Popover on bottom",
+            "</button>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 popover triggered from the bottom."
+    },
+    "Bootstrap 5 Popover Left": {
+        "prefix": "bs5-popover-left",
+        "body": [
+            "<button type=\"button\" class=\"btn $1btn-secondary\" data-bs-container=\"body\" data-bs-toggle=\"popover\" data-bs-placement=\"left\" data-bs-content=\"$2Left popover\">",
+            "  $3Popover on left",
+            "</button>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 popover triggered from the left."
+    },
+    "Bootstrap 5 Progress Bar 50%": {
+        "prefix": "bs5-progress-bar",
+        "body": [
+            "<div class=\"progress\" role=\"progressbar\" aria-label=\"$1Basic example\" aria-valuenow=\"50\" aria-valuemin=\"0\" aria-valuemax=\"100\">",
+            "  <div class=\"progress-bar\" style=\"width: 50%\"></div>",
+            "</div>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 progress bar at 50%."
+    },
+    "Bootstrap 5 Scrollspy Navbar": {
+        "prefix": "bs5-scrollspy-navbar",
+        "body": [
+            "<nav id=\"$1navbar-example2\" class=\"navbar $2bg-body-tertiary px-3 mb-3\">",
+            "  <a class=\"navbar-brand\" href=\"$3#\">$4Navbar</a>",
+            "  <ul class=\"nav nav-pills\">",
+            "    <li class=\"nav-item\">",
+            "      <a class=\"nav-link\" href=\"#$5scrollspyHeading1\">$6First</a>",
+            "    </li>",
+            "    <li class=\"nav-item\">",
+            "      <a class=\"nav-link\" href=\"#$7scrollspyHeading2\">$8Second</a>",
+            "    </li>",
+            "    <li class=\"nav-item dropdown\">",
+            "      <a class=\"nav-link dropdown-toggle\" data-bs-toggle=\"dropdown\" href=\"$9#\" role=\"button\" aria-expanded=\"false\">$10Dropdown</a>",
+            "      <ul class=\"dropdown-menu\">",
+            "        <li><a class=\"dropdown-item\" href=\"#$11scrollspyHeading3\">$12Third</a></li>",
+            "        <li><a class=\"dropdown-item\" href=\"#$13scrollspyHeading4\">$14Fourth</a></li>",
+            "        <li><hr class=\"dropdown-divider\"></li>",
+            "        <li><a class=\"dropdown-item\" href=\"#$15scrollspyHeading5\">$16Fifth</a></li>",
+            "      </ul>",
+            "    </li>",
+            "  </ul>",
+            "</nav>",
+            "<div data-bs-spy=\"scroll\" data-bs-target=\"#$1navbar-example2\" data-bs-root-margin=\"0px 0px -40%\" data-bs-smooth-scroll=\"true\" class=\"scrollspy-example bg-body-tertiary p-3 rounded-2\" tabindex=\"0\">",
+            "  <h4 id=\"$5scrollspyHeading1\">$17First heading</h4>",
+            "  <p>$18...</p>",
+            "  <h4 id=\"$7scrollspyHeading2\">$19Second heading</h4>",
+            "  <p>$20...</p>",
+            "  <h4 id=\"$11scrollspyHeading3\">$21Third heading</h4>",
+            "  <p>$22...</p>",
+            "  <h4 id=\"$13scrollspyHeading4\">$23Fourth heading</h4>",
+            "  <p>$24...</p>",
+            "  <h4 id=\"$15scrollspyHeading5\">$25Fifth heading</h4>",
+            "  <p>$26...</p>",
+            "</div>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 scrollspy example with a navbar and scrollable content."
+    },
+    "Bootstrap 5 Spinner": {
+        "prefix": "bs5-spinner",
+        "body": [
+            "<div class=\"spinner-border\" role=\"status\">",
+            "  <span class=\"visually-hidden\">$1Loading...</span>",
+            "</div>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 border spinner."
+    },
+    "Bootstrap 5 Live Toast": {
+        "prefix": "bs5-toast-live",
+        "body": [
+            "",
+            "<button type=\"button\" class=\"btn $1btn-primary\" id=\"$2liveToastBtn\">$3Show live toast</button>",
+            "",
+            "",
+            "<div class=\"toast-container position-fixed bottom-0 end-0 p-3\" style=\"z-index: 11\">",
+            "  <div id=\"$2liveToast\" class=\"toast\" role=\"alert\" aria-live=\"assertive\" aria-atomic=\"true\">",
+            "    <div class=\"toast-header\">",
+            "      <img src=\"$4...\" class=\"rounded me-2\" alt=\"$5...\">",
+            "      <strong class=\"me-auto\">$6Bootstrap</strong>",
+            "      <small>$711 mins ago</small>",
+            "      <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"toast\" aria-label=\"Close\"></button>",
+            "    </div>",
+            "    <div class=\"toast-body\">",
+            "      $8Hello, world! This is a toast message.",
+            "    </div>",
+            "  </div>",
+            "</div>",
+            "",
+            "",
+            "<script>",
+            "  const toastTrigger = document.getElementById('$2liveToastBtn');",
+            "  const toastLiveExample = document.getElementById('$2liveToast');",
+            "  if (toastTrigger) {",
+            "    const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample);",
+            "    toastTrigger.addEventListener('click', () => {",
+            "      toastBootstrap.show();",
+            "    });",
+            "  }",
+            "</script>",
+            "$0"
+        ],
+        "description": "A Bootstrap 5 live toast with a trigger button and JavaScript initialization."
+    },
+    "Bootstrap 5 Tooltip Top": {
+        "prefix": "bs5-tooltip-top",
+        "body": [
+            "<button type=\"button\" class=\"btn $1btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"$2Tooltip on top\">",
+            "  $3Tooltip on top",
+            "</button>",
+            "$0"
+        ],
+        "description": "A basic Bootstrap 5 tooltip triggered from the top."
+    }
+}
