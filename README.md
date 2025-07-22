@@ -2,9 +2,11 @@
 
 ![Bootstrap 5 Lazy Snippets Logo](img/bootstrap-5-lazy-snippets-logo.png)
 
-## Tired of switching tabs to look up Bootstrap 5 components? 
+## 😫 Tired of switching tabs to look up Bootstrap 5 components? 
 
-Bootstrap 5 Lazy Snippets is your ultimate VS Code companion for rapid Bootstrap 5 development. This extension provides a comprehensive collection of essential Bootstrap 5 HTML snippets, allowing you to instantly generate common components with just a few keystrokes. Say goodbye to repetitive typing and constant documentation checks – boost your coding speed and focus on building amazing UIs!
+Bootstrap 5 Lazy Snippets is your ultimate VS Code companion for rapid Bootstrap 5 development. This extension provides a comprehensive collection of essential Bootstrap 5 HTML snippets, allowing you to instantly generate common components with just a few keystrokes. 
+
+👋 Say goodbye to repetitive typing and constant documentation checks – boost your coding speed and focus on building amazing UIs!
 
 ## ✨ Features
 
