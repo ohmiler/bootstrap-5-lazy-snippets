@@ -2,7 +2,7 @@
   "name": "bootstrap-5-lazy-snippets",
   "displayName": "Bootstrap 5 Lazy Snippets",
   "description": "Tired of switching tabs? Bootstrap 5 Lazy Snippets brings the most-used Bootstrap 5 components directly to your VS Code editor.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.102.0"
   },
