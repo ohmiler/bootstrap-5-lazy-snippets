@@ -12,48 +12,29 @@ This extension provides a wide array of Bootstrap 5 components and structures as
 
 ## Key features include:
 
-- HTML Boilerplate `!bs5` Quickly generate a basic HTML5 structure with Bootstrap 5 CSS and JS CDN links already included.
-
-- Accordion Components `bs5-accordion`, `bs5-accordion-flush`, `bs5-accordion-open`: Insert various accordion types with pre-configured items.
-
-- Alerts `bs5-alert-primary`, `bs5-alert-success`: Get all alert variations instantly.
-
-- Badges `bs5-badge-primary`, `bs5-badge-pill-success` etc. Easily add regular and pill-shaped badges in all colors.
-
-- Breadcrumbs `bs5-breadcrumb` Generate standard breadcrumb navigation.
-
-- Buttons `bs5-button-primary`, `bs5-button-outline-danger` etc. Quickly insert solid, outline, and link buttons, including button groups and split dropdown buttons.
-
-- Cards `bs5-card-img` Full card structures with images.
-
-- Carousels `bs5-carousel`, `bs5-carousel-indicators`, `bs5-carousel-captions`, `bs5-carousel-fade` Insert various carousel types with default slides.
-
-- Collapse `bs5-collapse` Basic collapse component with linked trigger.
-
-- Dropdowns `bs5-dropdown`, `bs5-dropdown-divider-danger`, `bs5-dropdown-split-danger` Standard and split dropdowns with menu items and dividers.
-
-- List Groups `bs5-list-group` A basic unordered list group.
-
-- Modals `bs5-modal` Complete modal structures with trigger buttons and pre-configured content areas.
-
-- Navbar `bs5-navbar-search` A responsive navbar with brand, navigation links, dropdown, and a search form.
-
-- Offcanvas `bs5-offcanvas` A slide-out offcanvas component with triggers and sample content.
-
-- Pagination `bs5-pagination` A basic pagination component.
-
-- Popovers `bs5-popover-top`, `bs5-popover-right` etc. Buttons with popover functionality for various placements.
-
-- Progress Bars `bs5-progress-bar` etc. Progress bars at various percentage values.
-
-- Scrollspy `bs5-scrollspy-navbar` A full scrollspy example with a navigation bar and corresponding content sections.
-
-- Spinners `bs5-spinner` A basic border spinner.
-
-- Toasts `bs5-toast-live` A live toast notification with a trigger button and essential JavaScript.
-
-- Tooltips `bs5-tooltip-top` Buttons with tooltip functionality and a custom-themed example.
-
+| **Component**     | **Snippet(s)**                                                                 | **Description** |
+|-------------------|--------------------------------------------------------------------------------|-----------------|
+| HTML Boilerplate  | `!bs5`                                                                         | Basic HTML5 with Bootstrap 5 CSS/JS CDN |
+| Accordion         | `bs5-accordion`, `bs5-accordion-flush`, `bs5-accordion-open`                   | Various accordion types with items |
+| Alerts            | `bs5-alert-primary`, `bs5-alert-success`                                       | Alert variations |
+| Badges            | `bs5-badge-primary`, `bs5-badge-pill-success`                                  | Regular and pill-shaped badges |
+| Breadcrumbs       | `bs5-breadcrumb`                                                               | Standard breadcrumb navigation |
+| Buttons           | `bs5-button-primary`, `bs5-button-outline-danger`                              | Solid, outline, link buttons, button groups, split dropdowns |
+| Cards             | `bs5-card-img`                                                                 | Card structure with images |
+| Carousels         | `bs5-carousel`, `bs5-carousel-indicators`, `bs5-carousel-captions`, `bs5-carousel-fade` | Carousel types with default slides |
+| Collapse          | `bs5-collapse`                                                                 | Basic collapse with trigger |
+| Dropdowns         | `bs5-dropdown`, `bs5-dropdown-divider-danger`, `bs5-dropdown-split-danger`     | Standard/split dropdowns, dividers |
+| List Groups       | `bs5-list-group`                                                               | Unordered list group |
+| Modals            | `bs5-modal`                                                                    | Complete modal with trigger and content |
+| Navbar            | `bs5-navbar-search`                                                            | Responsive navbar with search |
+| Offcanvas         | `bs5-offcanvas`                                                                | Slide-out offcanvas component |
+| Pagination        | `bs5-pagination`                                                               | Basic pagination component |
+| Popovers          | `bs5-popover-top`, `bs5-popover-right`                                         | Buttons with popover (various placements) |
+| Progress Bars     | `bs5-progress-bar`                                                             | Progress bars with percentages |
+| Scrollspy         | `bs5-scrollspy-navbar`                                                         | Scrollspy with navbar and sections |
+| Spinners          | `bs5-spinner`                                                                  | Border spinner |
+| Toasts            | `bs5-toast-live`                                                               | Live toast notification with trigger |
+| Tooltips          | `bs5-tooltip-top`                                                              | Tooltip buttons with custom themes |
 
 ## ⚙️ Requirements
 
