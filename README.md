@@ -61,16 +61,4 @@ Comprehensive collection of snippets for Accordions, Alerts, Badges, Breadcrumbs
 
 Optimized for quick insertion with intuitive prefixes and helpful tabstops.
 
-## ✨ Following Extension Guidelines
-
-This extension aims to adhere to Visual Studio Code's Extension Guidelines to ensure a high-quality user experience.
-
-## 📚 For more information
-
-Visual Studio Code's Markdown Support
-
-Markdown Syntax Reference
-
-Bootstrap 5 Official Documentation (for full component details and usage)
-
 Enjoy faster Bootstrap 5 development! 🚀
